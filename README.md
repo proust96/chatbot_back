@@ -1,6 +1,6 @@
 # chatbot_back
 
-Allows the front end to query our IBM Watson Assitant.
+Allows the front end to query our IBM Watson Assitant for the Capgemini Hackathon.
 
 This is a small API that links our webapp to our IBM workspace. Having this small server as an intermediary allows us to decouple the processing from the display and to filter some parts of the response.
 
