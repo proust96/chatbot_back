@@ -1,6 +1,6 @@
-// service.js
 const watson = require('watson-developer-cloud');
 
+//the .env file is not included in the repo as it contains personal API keys
 const assistant = new watson.AssistantV1({
   username: process.env.WATSON_USERNAME,
   password: process.env.WATSON_PASSWORD,
